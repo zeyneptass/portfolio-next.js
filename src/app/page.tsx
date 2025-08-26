@@ -5,6 +5,14 @@ import logo from "../img/logo.svg";
 import menu from "../img/hamburger.svg";
 import profile from "../img/profile.png";
 import portrait from "../img/portrait.jpg";
+import user from "../img/user.png";
+import p1 from "../img/p1.jpg";
+import p2 from "../img/p2.jpg";
+import p3 from "../img/p3.jpg";
+import p4 from "../img/p4.jpg";
+import p5 from "../img/p5.jpg";
+import p6 from "../img/p6.jpg";
+
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -381,6 +389,77 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="bg-gray-50">
+        <div className="max-w-screen-md px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+          <figure className="">
+            <svg className="h-12 mx-auto mb-3 fill-gray-600 rotate-180 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.62 18h-5.24l2-4H13V6h8v7.24L18.62 18zm-2-2h.76L19 12.76V8h-4v4h3.62l-2 4zm-8 2H3.38l2-4H3V6h8v7.24L8.62 18zm-2-2h.76L9 12.76V8H5v4h3.62l-2 4z"/></svg>
+            <blockquote>
+              <p className="text-xl font-medium text-gray-900 md:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore commodi soluta perferendis in, quaerat praesentium esse inventore sapiente. Quam autem nulla modi excepturi, dolorem tempore mollitia corrupti vitae sequi!</p>
+            </blockquote>
+            <figcaption className="flex items-center justify-center mt-6 space-x-3">
+              <Image src={user} alt="portrait" className="size-6 rounded-full"/>
+              <div className="flex items-center divide-x-2 divide-gray-500">
+                <div className="pr-3 font-medium text-gray-900">Micheal Gough</div>
+                <div className="pl-3 text-sm font-light text-gray-500">CEO at Google</div>
+
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="max-w-screen-lg mx-auto px-7 py-15 text-center">
+          <h1 className="mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">Projects</h1>
+          <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <div className="relative group">
+              <Image src={p1} alt="user" className="h-auto max-w-full rounded-lg group-hover:brightness-50 duration-500"/>
+              <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 duration-500">
+                <span className="text-xl lg:text-2xl xl:text-3xl font-bold text-white">Project 1</span>
+              </div>
+              
+            </div>
+            <div className="relative group">
+              <Image src={p2} alt="user" className="h-auto max-w-full rounded-lg group-hover:brightness-50 duration-500"/>
+              <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 duration-500">
+                <span className="text-xl lg:text-2xl xl:text-3xl font-bold text-white">Project 2</span>
+              </div>
+              
+            </div>
+            <div className="relative group">
+              <Image src={p3} alt="user" className="h-auto max-w-full rounded-lg group-hover:brightness-50 duration-500"/>
+              <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 duration-500">
+                <span className="text-xl lg:text-2xl xl:text-3xl font-bold text-white">Project 3</span>
+              </div>
+              
+            </div>
+            <div className="relative group">
+              <Image src={p4} alt="user" className="h-auto max-w-full rounded-lg group-hover:brightness-50 duration-500"/>
+              <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 duration-500">
+                <span className="text-xl lg:text-2xl xl:text-3xl font-bold text-white">Project 4</span>
+              </div>
+              
+            </div>
+            <div className="relative group">
+              <Image src={p5} alt="user" className="h-auto max-w-full rounded-lg group-hover:brightness-50 duration-500"/>
+              <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 duration-500">
+                <span className="text-xl lg:text-2xl xl:text-3xl font-bold text-white">Project 5</span>
+              </div>
+              
+            </div>
+            <div className="relative group">
+              <Image src={p6} alt="user" className="h-auto max-w-full rounded-lg group-hover:brightness-50 duration-500"/>
+              <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 duration-500">
+                <span className="text-xl lg:text-2xl xl:text-3xl font-bold text-white">Project 6</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
