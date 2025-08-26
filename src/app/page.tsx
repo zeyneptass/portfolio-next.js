@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div>
-      <header className="fixed w-full ">
+      <header className="fixed w-full z-10">
         <nav className="bg-white border-gray-200 py-2.5">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="#" className="flex items-center">
@@ -66,7 +66,7 @@ export default function Home() {
         </nav>
       </header>
       <section className="bg-gray-100">
-        <div className="max-w-screen-xl mx-auto px-4 pt-30 pb-10 py-8 lg:pb-0 lg:pt-20 grid lg:grid-cols-12">
+        <div className="max-w-screen-xl mx-auto px-4 pt-30  pb-10 py-8 lg:pb-0 lg:pt-20 grid lg:grid-cols-12">
           {/* left */}
           <div className="lg:col-span-7 place-self-center">
            <div className="text">
@@ -85,7 +85,7 @@ export default function Home() {
       </section>
 
       <section className="bg-gray-100 border-t border-gray-300">
-        <div className="">
+        <div className="pt-5 pb-5">
           <div className="max-w-screen-xl mx-auto px-7 py-15">
             <div className="flex flew-wrap tex-center gap-y-3">
               <div className="w-[50%] lg:w-1/4 flex items-center justify-start">
@@ -130,7 +130,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white">
+      <section className="bg-white pt-10 pb-10 mb-10">
         <div className="max-w-screen-xl mx-auto px-7 py-15 grid lg:grid-cols-5 space-x-5">
           <div className="hidden lg:flex lg:col-span-2 mt-4">
             <Image src={portrait} alt="portrait" width={500} height={500} className="rounded-xl"/>
@@ -167,7 +167,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-100">
+      <section className="bg-gray-100 pt-10 ">
         <div className="max-w-screen-lg mx-auto px-7 pt-15 text-center">
            <h1 className="mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">My Skills</h1>
             <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus repudiandae ducimus iusto alias asperiores delectus dolore illo nostrum perspiciatis itaque. Cum reiciendis ipsam provident in distinctio magni ad perspiciatis eveniet?</p>
@@ -331,6 +331,54 @@ export default function Home() {
               </div>
               
             </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-100 ">
+        <div className="max-w-screen-lg px-7 mx-auto py-15 text-center">
+          <h1 className="mb-4 pt-8 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">Services</h1>
+          <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, animi?</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 space-y-10 lg:space-y-0 my-20">
+            <div className="group relative bg-white hover:bg-purple-400 hover:text-white rounded-md p-5 shadow-lg">
+              <div className="flex justify-center items-center absolute -top-8 size-15 bg-purple-300  group-hover:bg-white before:text-white p-3 lg:p-4 border-1 lg:border-2 rounded-full border-purple-500 group-hover:translate-x-3 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-40-343 237-137-237-137-237 137 237 137ZM160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11L160-252Zm320-228Z"/></svg>
+              </div>
+              <div className="flex flex-col text-start space-y-5 pt-4">
+                <h3 className="font-semibold group-hover:text-white">Web Development</h3>
+                <p className="text-gray-500 group-hover:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+              </div>
+            </div>
+
+            <div className="group relative bg-white hover:bg-purple-400 hover:text-white rounded-md p-5 shadow-lg">
+              <div className="flex justify-center items-center absolute -top-8 size-15 bg-purple-300  group-hover:bg-white before:text-white p-3 lg:p-4 border-1 lg:border-2 rounded-full border-purple-500 group-hover:translate-x-3 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-40-343 237-137-237-137-237 137 237 137ZM160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11L160-252Zm320-228Z"/></svg>
+              </div>
+              <div className="flex flex-col text-start space-y-5 pt-4">
+                <h3 className="font-semibold group-hover:text-white">Web Development</h3>
+                <p className="text-gray-500 group-hover:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+              </div>
+            </div>
+
+            <div className="group relative bg-white hover:bg-purple-400 hover:text-white rounded-md p-5 shadow-lg">
+              <div className="flex justify-center items-center absolute -top-8 size-15 bg-purple-300  group-hover:bg-white before:text-white p-3 lg:p-4 border-1 lg:border-2 rounded-full border-purple-500 group-hover:translate-x-3 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-40-343 237-137-237-137-237 137 237 137ZM160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11L160-252Zm320-228Z"/></svg>
+              </div>
+              <div className="flex flex-col text-start space-y-5 pt-4">
+                <h3 className="font-semibold group-hover:text-white">Web Development</h3>
+                <p className="text-gray-500 group-hover:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+              </div>
+            </div>
+
+            <div className="group relative bg-white hover:bg-purple-400 hover:text-white rounded-md p-5 shadow-lg">
+              <div className="flex justify-center items-center absolute -top-8 size-15 bg-purple-300  group-hover:bg-white before:text-white p-3 lg:p-4 border-1 lg:border-2 rounded-full border-purple-500 group-hover:translate-x-3 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-40-343 237-137-237-137-237 137 237 137ZM160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11L160-252Zm320-228Z"/></svg>
+              </div>
+              <div className="flex flex-col text-start space-y-5 pt-4">
+                <h3 className="font-semibold group-hover:text-white">Web Development</h3>
+                <p className="text-gray-500 group-hover:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
