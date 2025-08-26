@@ -133,7 +133,7 @@ export default function Home() {
       <section className="bg-white">
         <div className="max-w-screen-xl mx-auto px-7 py-15 grid lg:grid-cols-5 space-x-5">
           <div className="hidden lg:flex lg:col-span-2 mt-4">
-            <Image src={portrait} alt="portrait" width={300} height={300} className="rounded-xl"/>
+            <Image src={portrait} alt="portrait" width={500} height={500} className="rounded-xl"/>
           </div>
           <div className="lg:col-span-3 flex flex-col justify-center lg:ms-3">
             <h1 className="max-w-2xl mt-10 mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">About Me </h1>
@@ -164,6 +164,173 @@ export default function Home() {
             </ul>
           </div>
 
+        </div>
+      </section>
+
+      <section className="bg-gray-100">
+        <div className="max-w-screen-lg mx-auto px-7 pt-15 text-center">
+           <h1 className="mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">My Skills</h1>
+            <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus repudiandae ducimus iusto alias asperiores delectus dolore illo nostrum perspiciatis itaque. Cum reiciendis ipsam provident in distinctio magni ad perspiciatis eveniet?</p>
+            <div className="skills grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 my-10">
+             
+              <div className="bg-white p-10 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                <div className="flex flex-col items-center gap-y-4">
+                  <span className="font-semibold text-xl">CSS</span>
+                  <div className="size-30 relative">
+                    <svg className="size-full" viewBox="0 0 36 36">
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-gray-200" strokeWidth="2">
+                        </circle>
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-purple-600" strokeWidth="2" strokeDasharray="100, 100" strokeDashoffset="10" strokeLinecap="round">
+                        </circle>
+                    </svg>
+                    <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span className="text-center text-xl font-semibold text-purple-600">90%</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-between px-5 mt-3">
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">28%</span>
+                    <span className="text-gray-600 text-sm">Last Week</span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">60%</span>
+                    <span className="text-gray-600 text-sm">Last Month</span>
+                  </div>
+                </div>
+              </div>
+               <div className="bg-white p-10 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                <div className="flex flex-col items-center gap-y-4">
+                  <span className="font-semibold text-xl">JavaScript</span>
+                  <div className="size-30 relative">
+                    <svg className="size-full" viewBox="0 0 36 36">
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-gray-200" strokeWidth="2">
+                        </circle>
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-purple-600" strokeWidth="2" strokeDasharray="100, 100" strokeDashoffset="20" strokeLinecap="round">
+                        </circle>
+                    </svg>
+                    <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span className="text-center text-xl font-semibold text-purple-600">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-between px-5 mt-3">
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">28%</span>
+                    <span className="text-gray-600 text-sm">Last Week</span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">60%</span>
+                    <span className="text-gray-600 text-sm">Last Month</span>
+                  </div>
+                </div>
+              </div>
+               <div className="bg-white p-10 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                <div className="flex flex-col items-center gap-y-4">
+                  <span className="font-semibold text-xl">React</span>
+                  <div className="size-30 relative">
+                    <svg className="size-full" viewBox="0 0 36 36">
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-gray-200" strokeWidth="2">
+                        </circle>
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-purple-600" strokeWidth="2" strokeDasharray="100, 100" strokeDashoffset="30" strokeLinecap="round">
+                        </circle>
+                    </svg>
+                    <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span className="text-center text-xl font-semibold text-purple-600">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-between px-5 mt-3">
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">28%</span>
+                    <span className="text-gray-600 text-sm">Last Week</span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">60%</span>
+                    <span className="text-gray-600 text-sm">Last Month</span>
+                  </div>
+                </div>
+              </div>
+               <div className="bg-white p-10 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                <div className="flex flex-col items-center gap-y-4">
+                  <span className="font-semibold text-xl">Node.js</span>
+                  <div className="size-30 relative">
+                    <svg className="size-full" viewBox="0 0 36 36">
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-gray-200" strokeWidth="2">
+                        </circle>
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-purple-600" strokeWidth="2" strokeDasharray="100, 100" strokeDashoffset="15" strokeLinecap="round">
+                        </circle>
+                    </svg>
+                    <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span className="text-center text-xl font-semibold text-purple-600">85%</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-between px-5 mt-3">
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">28%</span>
+                    <span className="text-gray-600 text-sm">Last Week</span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">60%</span>
+                    <span className="text-gray-600 text-sm">Last Month</span>
+                  </div>
+                </div>
+              </div>
+               <div className="bg-white p-10 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                <div className="flex flex-col items-center gap-y-4">
+                  <span className="font-semibold text-xl">Laravel</span>
+                  <div className="size-30 relative">
+                    <svg className="size-full" viewBox="0 0 36 36">
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-gray-200" strokeWidth="2">
+                        </circle>
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-purple-600" strokeWidth="2" strokeDasharray="100, 100" strokeDashoffset="20" strokeLinecap="round">
+                        </circle>
+                    </svg>
+                    <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span className="text-center text-xl font-semibold text-purple-600">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-between px-5 mt-3">
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">28%</span>
+                    <span className="text-gray-600 text-sm">Last Week</span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">60%</span>
+                    <span className="text-gray-600 text-sm">Last Month</span>
+                  </div>
+                </div>
+              </div>
+               <div className="bg-white p-10 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                <div className="flex flex-col items-center gap-y-4">
+                  <span className="font-semibold text-xl">Php</span>
+                  <div className="size-30 relative">
+                    <svg className="size-full" viewBox="0 0 36 36">
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-gray-200" strokeWidth="2">
+                        </circle>
+                        <circle cx="18" cy="18" r="16" fill="none" className="stroke-current text-purple-600" strokeWidth="2" strokeDasharray="100, 100" strokeDashoffset="30" strokeLinecap="round">
+                        </circle>
+                    </svg>
+                    <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span className="text-center text-xl font-semibold text-purple-600">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-between px-5 mt-3">
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">28%</span>
+                    <span className="text-gray-600 text-sm">Last Week</span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-purple-500 font-semibold text-lg">60%</span>
+                    <span className="text-gray-600 text-sm">Last Month</span>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
         </div>
       </section>
     </div>
