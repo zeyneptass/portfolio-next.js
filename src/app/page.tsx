@@ -343,7 +343,7 @@ export default function Home() {
       </section>
 
       <section className="bg-gray-100 ">
-        <div className="max-w-screen-lg px-7 mx-auto py-15 text-center">
+        <div className="max-w-screen-lg max-h-screen-lg px-7 mx-auto py-15 text-center">
           <h1 className="mb-4 pt-8 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">Services</h1>
           <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, animi?</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 space-y-10 lg:space-y-0 my-20">
@@ -409,7 +409,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white">
+      <section className="bg-white pt-10 pb-10">
         <div className="max-w-screen-lg mx-auto px-7 py-15 text-center">
           <h1 className="mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">Projects</h1>
           <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -460,6 +460,84 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-gray-50 pt-10 pb-10">
+        <div className="max-w-screen-lg mx-auto px-7 py-15 text-center">
+          <h1 className="mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">Contact Me</h1>
+          <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div className="flex flex-col lg:flex-row gap-3 space-y-3 lg:space-y-0 lg:space-x-3">
+            {/* left */}
+            <div className="flex-1 lg:flex-1 lg:order-2">
+              <div className="bg-white flex flex-col justify-around p-3 h-full">
+                <div className="flex gap-2 items-start mb-5">
+                  <div className="flex items-center justify-center bg-purple-600 p-2 border-1 lg:border-2 rounded-full">
+                    <svg className="size-5 fill-white" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"/><circle cx="12" cy="9" r="2.5"/>
+                    </svg>
+                  </div>
+                  <div className="flex flex-col text-start">
+                    <span className="font-bold">Address:</span>
+                    <span className="text-sm font-light">Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </div>
+                <div className="flex gap-2 items-start mb-5">
+                  <div className="flex items-center justify-center bg-purple-600 p-2 border-1 lg:border-2 rounded-full">
+                    <svg className="size-5 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#1f1f1f"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57-.1-.04-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1z"/></svg>
+                  </div>
+                  <div className="flex flex-col text-start">
+                    <span className="font-bold">Phone:</span>
+                    <span className="text-sm font-light">0555 555 55 55</span>
+                  </div>
+                </div>
+                <div className="flex gap-2 items-start mb-5">
+                  <div className="flex items-center justify-center bg-purple-600 p-2 border-1 lg:border-2 rounded-full">
+                    <svg className="size-5 fill-white" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+                   
+                  </div>
+                  <div className="flex flex-col text-start">
+                    <span className="font-bold">Email:</span>
+                    <span className="text-sm font-light">info@abc.com</span>
+                  </div>
+                </div>
+                <div className="flex gap-2 items-start mb-5">
+                  <div className="flex items-center justify-center bg-purple-600 p-2 border-1 lg:border-2 rounded-full">
+                    <svg className="size-5 fill-white" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg>
+                    
+                  </div>
+                  <div className="flex flex-col text-start">
+                    <span className="font-bold">Website:</span>
+                    <span className="text-sm font-light">zeyneptas.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* right */}
+            <div className="flex-1 lg:flex-2 lg:order-1 ">
+              <form >
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
+                  <div>
+                    <input type="text" name="name" id="name" placeholder="Name" className="bg-white border border-gray-700 text-gray-900 text-sm w-full p-2.5 focus:outline-none"/>
+                  </div>
+                  <div>
+                    <input type="email" name="email" id="email" placeholder="Email" className="bg-white border border-gray-700 text-gray-900 text-sm w-full p-2.5 focus:outline-none"/>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" className="bg-white border border-gray-700 text-gray-900 text-sm w-full p-2.5 focus:outline-none"/>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <textarea name="message" id="message" rows={5} placeholder="Message" className="bg-white border border-gray-700 text-gray-900 text-sm w-full p-2.5 focus:outline-none">                      
+                    </textarea>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <button type="submit" className="block w-full px-5 py-3 text-sm border border-gray-700 hover:bg-purple-700 hover:text-white bg-white">Send Message</button>
+                  </div>
+
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
