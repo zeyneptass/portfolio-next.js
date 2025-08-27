@@ -181,7 +181,7 @@ You can update texts and images in `src/app/page.tsx`.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project was developed for educational/portfolio purposes.
 
 ## 📞 Contact
 
